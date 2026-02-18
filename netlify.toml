@@ -2,7 +2,7 @@
   command = "npm run build"
   publish = "dist"
 
-# Handle Single Page Application routing
+# Handle Single Page Application routing (React Router)
 [[redirects]]
   from = "/*"
   to = "/index.html"

@@ -6,6 +6,7 @@
     <title>Pineal Fitness | Unleash Your Potential</title>
     <meta name="description" content="Pineal Fitness - The premier gym in Delhi. Join us for state-of-the-art equipment, expert trainers, and a transformative fitness journey." />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script>
       tailwind.config = {
         theme: {
@@ -60,12 +61,12 @@
 <script type="importmap">
 {
   "imports": {
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "react/": "https://esm.sh/react@^19.2.4/",
     "react": "https://esm.sh/react@^19.2.4",
     "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
-    "react/": "https://esm.sh/react@^19.2.4/",
-    "@google/genai": "https://esm.sh/@google/genai@^1.41.0",
     "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0",
-    "vite": "https://esm.sh/vite@^7.3.1",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0",
     "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.4"
   }
 }
