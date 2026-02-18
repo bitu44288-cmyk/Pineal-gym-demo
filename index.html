@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pineal Fitness | Unleash Your Potential</title>
+    <meta name="description" content="Pineal Fitness - The premier gym in Delhi. Join us for state-of-the-art equipment, expert trainers, and a transformative fitness journey." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              pineal: {
+                DEFAULT: '#D4FF00', // Electric Lime
+                50: '#f7fee7',
+                100: '#ecfccb',
+                200: '#d9f99d',
+                300: '#bef264',
+                400: '#a3e635',
+                500: '#84cc16',
+                600: '#65a30d',
+                700: '#4d7c0f',
+                dim: 'rgba(212, 255, 0, 0.1)',
+              },
+              dark: {
+                950: '#000000',
+                900: '#050505',
+                850: '#0a0a0a',
+                800: '#121212',
+                700: '#1c1c1c',
+                600: '#262626',
+              }
+            },
+            fontFamily: {
+              sans: ['Manrope', 'sans-serif'],
+              display: ['Syne', 'sans-serif'],
+            },
+            letterSpacing: {
+              tighter: '-0.05em',
+              tight: '-0.025em',
+              widest: '0.2em',
+            },
+            animation: {
+              'spin-slow': 'spin 12s linear infinite',
+              'marquee': 'marquee 25s linear infinite',
+            },
+            keyframes: {
+              marquee: {
+                '0%': { transform: 'translateX(0%)' },
+                '100%': { transform: 'translateX(-100%)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.13.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-dark-900 text-gray-100 font-sans antialiased selection:bg-pineal selection:text-black">
+    <div id="root"></div>
+  </body>
+</html>
