@@ -1,17 +1,10 @@
 import { GoogleGenAI } from "@google/genai";
 
-const apiKey = process.env.API_KEY || '';
-
-// Initialize the client only if the key exists to avoid immediate errors, 
-// though the app expects it to be present.
-const ai = apiKey ? new GoogleGenAI({ apiKey }) : null;
+// Initialize the client directly using the environment variable.
+// The API key must be configured in the environment variables.
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 export const getFitnessAdvice = async (query: string): Promise<string> => {
-  if (!ai) {
-    console.warn("API Key is missing.");
-    return "I'm sorry, I cannot provide advice at the moment. Please check the system configuration.";
-  }
-
   try {
     const response = await ai.models.generateContent({
       model: 'gemini-3-flash-preview',
