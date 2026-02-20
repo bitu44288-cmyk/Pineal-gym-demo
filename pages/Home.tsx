@@ -5,43 +5,48 @@ import { SERVICES } from '../constants';
 const Home: React.FC = () => {
   return (
     <div className="bg-dark-900 text-white overflow-hidden">
-      {/* Hero Section - Asymmetrical */}
-      <section className="relative min-h-screen flex flex-col md:flex-row">
-        {/* Left Content */}
-        <div className="w-full md:w-[45%] flex flex-col justify-center px-6 md:pl-20 md:pr-10 pt-32 pb-10 z-10 relative bg-dark-900">
-          <div className="mb-8 overflow-hidden">
-             <span className="inline-block text-pineal text-xs font-bold uppercase tracking-[0.3em] border border-pineal/30 px-3 py-1 rounded-full mb-4 animate-fade-in">
-               Delhi, India
-             </span>
-             <h1 className="font-display text-7xl md:text-8xl lg:text-9xl font-extrabold leading-[0.9] tracking-tighter uppercase mb-6">
-               Defy <br/>
-               <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">Limits</span>
-             </h1>
-          </div>
-          <p className="text-gray-400 max-w-sm mb-10 text-sm md:text-base leading-relaxed border-l border-pineal pl-4">
-            Hercules Fitness Gym isn't just a gym. It's a sanctuary for the driven. 
-            Elite equipment, raw atmosphere, and science-backed training.
-          </p>
-          <div className="flex items-center gap-6">
-            <Link to="/contact" className="group relative px-8 py-4 bg-white text-black font-bold uppercase tracking-wider text-sm overflow-hidden">
-              <span className="relative z-10 group-hover:text-white transition-colors duration-300">Join The Cult</span>
-              <div className="absolute inset-0 bg-pineal transform scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-300 ease-out"></div>
-            </Link>
-            <Link to="/gallery" className="text-sm font-bold uppercase tracking-wider text-white hover:text-pineal transition-colors flex items-center gap-2">
-              <i className="fas fa-play text-xs p-2 border border-white/20 rounded-full"></i>
-              Watch Film
-            </Link>
-          </div>
-        </div>
-
-        {/* Right Image */}
-        <div className="w-full md:w-[55%] h-[50vh] md:h-screen absolute top-0 right-0 md:relative">
-          <div className="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent md:bg-gradient-to-l md:from-transparent md:to-dark-900/90 z-10"></div>
+      {/* Hero Section - Overlap Style */}
+      <section className="relative min-h-screen flex items-center overflow-hidden">
+        {/* Background Image Area - Shifts right on desktop */}
+        <div className="absolute top-0 right-0 w-full md:w-[65%] h-full z-0">
+          <div className="absolute inset-0 bg-gradient-to-r from-dark-900 via-dark-900/60 to-transparent z-10"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-dark-900 via-transparent to-transparent z-10"></div>
           <img 
             src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop" 
             alt="Athlete" 
             className="w-full h-full object-cover filter grayscale contrast-125"
           />
+        </div>
+
+        {/* Content Area */}
+        <div className="relative z-10 w-full max-w-[1400px] mx-auto px-6 md:px-20 pt-20">
+          <div className="max-w-4xl">
+             <span className="inline-block text-pineal text-xs font-bold uppercase tracking-[0.3em] border border-pineal/30 px-3 py-1 rounded-full mb-6 animate-fade-in">
+               Delhi, India
+             </span>
+             <h1 className="font-display text-7xl md:text-9xl font-extrabold leading-[0.85] tracking-tighter uppercase mb-8 drop-shadow-2xl">
+               Defy <br/>
+               <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-500">
+                 Limits
+               </span>
+             </h1>
+             <p className="text-gray-300 max-w-md mb-10 text-base md:text-lg leading-relaxed border-l-2 border-pineal pl-6 backdrop-blur-sm">
+               Hercules Fitness Gym isn't just a gym. It's a sanctuary for the driven. 
+               Elite equipment, raw atmosphere, and science-backed training.
+             </p>
+             <div className="flex items-center gap-6">
+                <Link to="/contact" className="group relative px-8 py-4 bg-white text-black font-bold uppercase tracking-wider text-sm overflow-hidden hover:scale-105 transition-transform">
+                  <span className="relative z-10 group-hover:text-white transition-colors duration-300">Join The Cult</span>
+                  <div className="absolute inset-0 bg-pineal transform scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-300 ease-out"></div>
+                </Link>
+                <Link to="/gallery" className="text-sm font-bold uppercase tracking-wider text-white hover:text-pineal transition-colors flex items-center gap-3 group">
+                  <span className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center group-hover:border-pineal group-hover:text-pineal transition-all">
+                    <i className="fas fa-play text-xs"></i>
+                  </span>
+                  Watch Film
+                </Link>
+             </div>
+          </div>
         </div>
       </section>
 
