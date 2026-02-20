@@ -27,7 +27,11 @@ const Contact: React.FC = () => {
            <div className="space-y-12">
               <div>
                 <span className="text-gray-500 text-xs uppercase tracking-widest block mb-2">Visit</span>
-                <p className="text-2xl text-white font-light max-w-xs">{GYM_DETAILS.address}</p>
+                <p className="text-2xl text-white font-light max-w-xs hover:text-pineal transition-colors">
+                  <a href="https://maps.app.goo.gl/F7PD1xWTpoNspKPR9" target="_blank" rel="noopener noreferrer">
+                    {GYM_DETAILS.address}
+                  </a>
+                </p>
               </div>
               <div>
                 <span className="text-gray-500 text-xs uppercase tracking-widest block mb-2">Speak</span>
