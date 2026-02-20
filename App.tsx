@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
-import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import FloatingActions from './components/FloatingActions';
-import AIModal from './components/AIModal';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
@@ -23,7 +22,7 @@ const ScrollToTop = () => {
 
 const App: React.FC = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className="flex flex-col min-h-screen">
         <ScrollToTop />
         <Header />
@@ -40,9 +39,8 @@ const App: React.FC = () => {
         </main>
         <Footer />
         <FloatingActions />
-        <AIModal />
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 };
 
