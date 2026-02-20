@@ -2,8 +2,8 @@ import { GymDetails, Service, PricingTier, Testimonial, BlogPost } from './types
 
 export const GYM_DETAILS: GymDetails = {
   name: "Hercules Fitness Gym",
-  phone: "+918668905438",
-  whatsapp: "918668905438",
+  phone: "+919668396898",
+  whatsapp: "919668396898",
   address: "SE/49, near Sahi Tutorial, Shakti Nagar, Rourkela, Odisha 769014",
   location: "Rourkela",
   email: "contact@herculesfitness.com"
