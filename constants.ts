@@ -4,8 +4,8 @@ export const GYM_DETAILS: GymDetails = {
   name: "Hercules Fitness Gym",
   phone: "+918668905438",
   whatsapp: "918668905438",
-  address: "Block A, Connaught Place, New Delhi, Delhi 110001",
-  location: "Delhi",
+  address: "SE/49, near Sahi Tutorial, Shakti Nagar, Rourkela, Odisha 769014",
+  location: "Rourkela",
   email: "contact@herculesfitness.com"
 };
 

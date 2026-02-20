@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
               <span className="text-sm font-bold tracking-[0.3em] text-pineal uppercase block mt-1">Fitness Gym</span>
             </div>
             <p className="text-gray-500 max-w-sm mb-8">
-              Forging elite physiques and unshakeable mindsets in the heart of Delhi. 
+              Forging elite physiques and unshakeable mindsets in the heart of Rourkela. 
               Join the movement.
             </p>
             <div className="flex gap-4">
@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-600 font-mono">
-          <p>&copy; {new Date().getFullYear()} HERCULES FITNESS GYM. DELHI.</p>
+          <p>&copy; {new Date().getFullYear()} HERCULES FITNESS GYM. ROURKELA.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
              <span>INSTAGRAM</span>
              <span>TWITTER</span>

@@ -23,7 +23,7 @@ const About: React.FC = () => {
             <section>
               <span className="text-pineal font-mono text-xs uppercase tracking-widest mb-6 block">// 01. The Vision</span>
               <p className="text-xl md:text-2xl text-gray-300 leading-relaxed font-light">
-                Hercules Fitness Gym was born in the chaos of Delhi, a beacon for those seeking clarity through physical exertion. We rejected the neon-lit, sterile corporate gym aesthetic for something raw, primal, and focused.
+                Hercules Fitness Gym was born in the chaos of Rourkela, a beacon for those seeking clarity through physical exertion. We rejected the neon-lit, sterile corporate gym aesthetic for something raw, primal, and focused.
               </p>
             </section>
 

@@ -22,7 +22,7 @@ const Home: React.FC = () => {
         <div className="relative z-10 w-full max-w-[1400px] mx-auto px-6 md:px-20 pt-20">
           <div className="max-w-4xl">
              <span className="inline-block text-pineal text-xs font-bold uppercase tracking-[0.3em] border border-pineal/30 px-3 py-1 rounded-full mb-6 animate-fade-in">
-               Delhi, India
+               Rourkela, Odisha
              </span>
              <h1 className="font-display text-7xl md:text-9xl font-extrabold leading-[0.85] tracking-tighter uppercase mb-8 drop-shadow-2xl">
                Defy <br/>
@@ -74,7 +74,7 @@ const Home: React.FC = () => {
                 <svg viewBox="0 0 100 100" width="140" height="140">
                   <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="transparent" />
                   <text fontSize="13" fontWeight="bold" fill="#000">
-                    <textPath xlinkHref="#circlePath">EST. 2012 • DELHI • ELITE FITNESS •</textPath>
+                    <textPath xlinkHref="#circlePath">EST. 2012 • ROURKELA • ELITE FITNESS •</textPath>
                   </text>
                 </svg>
                 <i className="fas fa-bolt text-2xl text-black absolute"></i>
