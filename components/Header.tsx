@@ -35,7 +35,7 @@ const Header: React.FC = () => {
           {/* Logo Area */}
           <Link to="/" className="relative z-50 group">
             <span className="font-display font-extrabold text-2xl tracking-tighter text-white group-hover:text-pineal transition-colors duration-300">
-              PINEAL<span className="text-pineal">.</span>FIT
+              IRON<span className="text-pineal">.</span>BAR
             </span>
           </Link>
 

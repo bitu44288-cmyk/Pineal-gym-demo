@@ -19,7 +19,7 @@ const Home: React.FC = () => {
              </h1>
           </div>
           <p className="text-gray-400 max-w-sm mb-10 text-sm md:text-base leading-relaxed border-l border-pineal pl-4">
-            Pineal Fitness isn't just a gym. It's a sanctuary for the driven. 
+            Iron Bar Gym isn't just a gym. It's a sanctuary for the driven. 
             Elite equipment, raw atmosphere, and science-backed training.
           </p>
           <div className="flex items-center gap-6">
@@ -50,7 +50,7 @@ const Home: React.FC = () => {
         <div className="whitespace-nowrap animate-marquee flex items-center gap-16">
           {[...Array(6)].map((_, i) => (
             <span key={i} className="text-4xl md:text-6xl font-display font-black text-transparent stroke-text uppercase opacity-30">
-              Strength • Discipline • Power • Pineal •
+              Strength • Discipline • Power • Iron Bar •
             </span>
           ))}
         </div>
@@ -151,7 +151,7 @@ const Home: React.FC = () => {
              Ready to <br/> <span className="text-stroke text-transparent">Dominate?</span>
            </h2>
            <p className="text-gray-400 mb-10 max-w-lg mx-auto">
-             Your potential is waiting. The iron doesn't lie. Join Pineal Fitness today and start your legacy.
+             Your potential is waiting. The iron doesn't lie. Join Iron Bar Gym today and start your legacy.
            </p>
            <Link to="/contact" className="inline-block bg-pineal text-black font-display font-bold text-xl px-12 py-5 uppercase hover:bg-white transition-colors">
              Start Membership

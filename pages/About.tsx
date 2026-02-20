@@ -9,7 +9,7 @@ const About: React.FC = () => {
           <div className="absolute inset-0 bg-pineal mix-blend-multiply opacity-20 z-10"></div>
           <img 
             src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=2070&auto=format&fit=crop" 
-            alt="About Pineal" 
+            alt="About Iron Bar" 
             className="w-full h-full object-cover filter grayscale contrast-125"
           />
           <div className="absolute bottom-10 left-10 z-20">
@@ -23,7 +23,7 @@ const About: React.FC = () => {
             <section>
               <span className="text-pineal font-mono text-xs uppercase tracking-widest mb-6 block">// 01. The Vision</span>
               <p className="text-xl md:text-2xl text-gray-300 leading-relaxed font-light">
-                Pineal Fitness was born in the chaos of Delhi, a beacon for those seeking clarity through physical exertion. We rejected the neon-lit, sterile corporate gym aesthetic for something raw, primal, and focused.
+                Iron Bar Gym was born in the chaos of Delhi, a beacon for those seeking clarity through physical exertion. We rejected the neon-lit, sterile corporate gym aesthetic for something raw, primal, and focused.
               </p>
             </section>
 
@@ -55,7 +55,7 @@ const About: React.FC = () => {
             <section>
               <span className="text-pineal font-mono text-xs uppercase tracking-widest mb-6 block">// 03. The Community</span>
               <p className="text-gray-400 leading-relaxed">
-                We are not for everyone. We are for the obsessed. The early risers. The late grinders. When you step into Pineal, you leave your ego at the door, but bring your ambition.
+                We are not for everyone. We are for the obsessed. The early risers. The late grinders. When you step into Iron Bar, you leave your ego at the door, but bring your ambition.
               </p>
             </section>
           </div>
