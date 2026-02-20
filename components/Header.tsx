@@ -33,9 +33,12 @@ const Header: React.FC = () => {
       >
         <div className="max-w-[1400px] mx-auto px-6 flex justify-between items-center">
           {/* Logo Area */}
-          <Link to="/" className="relative z-50 group">
+          <Link to="/" className="relative z-50 group flex flex-col items-start leading-none">
             <span className="font-display font-extrabold text-2xl tracking-tighter text-white group-hover:text-pineal transition-colors duration-300">
-              IRON<span className="text-pineal">.</span>BAR
+              HERCULES
+            </span>
+            <span className="text-[0.6rem] font-bold tracking-[0.2em] text-gray-400 group-hover:text-white transition-colors duration-300 uppercase">
+              Fitness Gym
             </span>
           </Link>
 

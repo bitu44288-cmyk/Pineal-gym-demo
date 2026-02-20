@@ -8,7 +8,10 @@ const Footer: React.FC = () => {
       <div className="max-w-[1400px] mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-20">
           <div className="md:col-span-5">
-            <h2 className="font-display text-4xl font-bold uppercase mb-8">Iron<span className="text-pineal">.</span>Bar</h2>
+            <div className="mb-8">
+              <h2 className="font-display text-4xl font-bold uppercase leading-none text-white">Hercules</h2>
+              <span className="text-sm font-bold tracking-[0.3em] text-pineal uppercase block mt-1">Fitness Gym</span>
+            </div>
             <p className="text-gray-500 max-w-sm mb-8">
               Forging elite physiques and unshakeable mindsets in the heart of Delhi. 
               Join the movement.
@@ -43,7 +46,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-600 font-mono">
-          <p>&copy; {new Date().getFullYear()} IRON BAR GYM. DELHI.</p>
+          <p>&copy; {new Date().getFullYear()} HERCULES FITNESS GYM. DELHI.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
              <span>INSTAGRAM</span>
              <span>TWITTER</span>

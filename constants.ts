@@ -1,12 +1,12 @@
 import { GymDetails, Service, PricingTier, Testimonial, BlogPost } from './types';
 
 export const GYM_DETAILS: GymDetails = {
-  name: "Iron Bar Gym",
+  name: "Hercules Fitness Gym",
   phone: "+918668905438",
   whatsapp: "918668905438",
   address: "Block A, Connaught Place, New Delhi, Delhi 110001",
   location: "Delhi",
-  email: "contact@ironbargym.com"
+  email: "contact@herculesfitness.com"
 };
 
 export const SERVICES: Service[] = [
@@ -77,7 +77,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: '1',
     name: 'Rahul Sharma',
     role: 'Member since 2022',
-    content: 'Iron Bar Gym changed my life. The trainers are knowledgeable and the atmosphere is incredibly motivating.',
+    content: 'Hercules Fitness Gym changed my life. The trainers are knowledgeable and the atmosphere is incredibly motivating.',
     image: 'https://picsum.photos/100/100?random=1'
   },
   {
