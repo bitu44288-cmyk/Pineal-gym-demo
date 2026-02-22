@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-20">
           <div className="md:col-span-5">
             <div className="mb-8">
-              <h2 className="font-display text-4xl font-bold uppercase leading-none text-white">Iron Bar</h2>
+              <h2 className="font-display text-4xl font-bold uppercase leading-none text-white">Mahaveer Royal</h2>
               <span className="text-sm font-bold tracking-[0.3em] text-pineal uppercase block mt-1">Fitness Gym</span>
             </div>
             <p className="text-gray-500 max-w-sm mb-8">
@@ -48,18 +48,18 @@ const Footer: React.FC = () => {
         {/* Map Section */}
         <div className="w-full h-64 md:h-80 mb-12 grayscale hover:grayscale-0 transition-all duration-500 border border-white/10 relative group">
           <iframe 
-            src="https://maps.google.com/maps?q=IRON+BAR+GYM,+backside+of+Mohapatra+complex,+Jd-21,jagda,+Koel+Nagar,+Rourkela,+Odisha+769042&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+            src="https://maps.google.com/maps?q=3rd+Floor,+MAHAVEER+ROYAL+GYM,+D/12,+Shakti+Nagar+-+Koel+Nagar+Rd,+D+Block,+Koel+Nagar,+Rourkela,+Odisha+769014&t=&z=13&ie=UTF8&iwloc=&output=embed" 
             width="100%" 
             height="100%" 
             style={{ border: 0 }} 
             allowFullScreen={true} 
             loading="lazy" 
             referrerPolicy="no-referrer-when-downgrade"
-            title="Iron Bar Fitness Gym Location"
+            title="Mahaveer Royal Fitness Gym Location"
             className="relative z-0"
           ></iframe>
           <a 
-            href="https://maps.app.goo.gl/d8cbTyxfrAUTum4DA" 
+            href="https://www.google.com/maps/search/?api=1&query=Mahaveer+Royal+Fitness+Gym+Rourkela" 
             target="_blank" 
             rel="noopener noreferrer"
             className="absolute bottom-4 right-4 bg-pineal text-black px-6 py-3 font-bold uppercase text-xs tracking-widest hover:bg-white transition-colors shadow-lg z-10 flex items-center gap-2"
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-600 font-mono">
-          <p>&copy; {new Date().getFullYear()} IRON BAR FITNESS GYM. ROURKELA.</p>
+          <p>&copy; {new Date().getFullYear()} MAHAVEER ROYAL FITNESS GYM. ROURKELA.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
              <span>INSTAGRAM</span>
              <span>TWITTER</span>

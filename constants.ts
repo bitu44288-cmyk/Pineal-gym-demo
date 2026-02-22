@@ -1,12 +1,12 @@
 import { GymDetails, Service, PricingTier, Testimonial, BlogPost } from './types';
 
 export const GYM_DETAILS: GymDetails = {
-  name: "Iron Bar Fitness Gym",
-  phone: "+919437722995",
-  whatsapp: "919437722995",
-  address: "IRON BAR GYM, backside of Mohapatra complex, Jd-21, Jagda, Koel Nagar, Rourkela, Odisha 769042",
+  name: "Mahaveer Royal Fitness Gym",
+  phone: "+919778616162",
+  whatsapp: "919778616162",
+  address: "3rd Floor, MAHAVEER ROYAL GYM, D/12, Shakti Nagar - Koel Nagar Rd, D Block, Koel Nagar, Rourkela, Odisha 769014",
   location: "Rourkela",
-  email: "contact@ironbarfitness.com"
+  email: "contact@mahaveerroyalgym.com"
 };
 
 export const SERVICES: Service[] = [
@@ -77,7 +77,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: '1',
     name: 'Rahul Sharma',
     role: 'Member since 2022',
-    content: 'Iron Bar Fitness Gym changed my life. The trainers are knowledgeable and the atmosphere is incredibly motivating.',
+    content: 'Mahaveer Royal Fitness Gym changed my life. The trainers are knowledgeable and the atmosphere is incredibly motivating.',
     image: 'https://picsum.photos/100/100?random=1'
   },
   {
