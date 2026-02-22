@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-20">
           <div className="md:col-span-5">
             <div className="mb-8">
-              <h2 className="font-display text-4xl font-bold uppercase leading-none text-white">Hercules</h2>
+              <h2 className="font-display text-4xl font-bold uppercase leading-none text-white">Iron Bar</h2>
               <span className="text-sm font-bold tracking-[0.3em] text-pineal uppercase block mt-1">Fitness Gym</span>
             </div>
             <p className="text-gray-500 max-w-sm mb-8">
@@ -48,18 +48,18 @@ const Footer: React.FC = () => {
         {/* Map Section */}
         <div className="w-full h-64 md:h-80 mb-12 grayscale hover:grayscale-0 transition-all duration-500 border border-white/10 relative group">
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.657987346164!2d84.8833983759516!3d22.25306994460515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a201f72bbd561c3%3A0xab5c70e76a7b5a!2sHercules%20Fitness%20Gym!5e0!3m2!1sen!2sin!4v1708418000000!5m2!1sen!2sin" 
+            src="https://maps.google.com/maps?q=IRON+BAR+GYM,+backside+of+Mohapatra+complex,+Jd-21,jagda,+Koel+Nagar,+Rourkela,+Odisha+769042&t=&z=13&ie=UTF8&iwloc=&output=embed" 
             width="100%" 
             height="100%" 
             style={{ border: 0 }} 
             allowFullScreen={true} 
             loading="lazy" 
             referrerPolicy="no-referrer-when-downgrade"
-            title="Hercules Fitness Gym Location"
+            title="Iron Bar Fitness Gym Location"
             className="relative z-0"
           ></iframe>
           <a 
-            href="https://maps.app.goo.gl/F7PD1xWTpoNspKPR9" 
+            href="https://maps.app.goo.gl/d8cbTyxfrAUTum4DA" 
             target="_blank" 
             rel="noopener noreferrer"
             className="absolute bottom-4 right-4 bg-pineal text-black px-6 py-3 font-bold uppercase text-xs tracking-widest hover:bg-white transition-colors shadow-lg z-10 flex items-center gap-2"
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-600 font-mono">
-          <p>&copy; {new Date().getFullYear()} HERCULES FITNESS GYM. ROURKELA.</p>
+          <p>&copy; {new Date().getFullYear()} IRON BAR FITNESS GYM. ROURKELA.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
              <span>INSTAGRAM</span>
              <span>TWITTER</span>

@@ -1,12 +1,12 @@
 import { GymDetails, Service, PricingTier, Testimonial, BlogPost } from './types';
 
 export const GYM_DETAILS: GymDetails = {
-  name: "Hercules Fitness Gym",
-  phone: "+919668396898",
-  whatsapp: "919668396898",
-  address: "SE/49, near Sahi Tutorial, Shakti Nagar, Rourkela, Odisha 769014",
+  name: "Iron Bar Fitness Gym",
+  phone: "+919437722995",
+  whatsapp: "919437722995",
+  address: "IRON BAR GYM, backside of Mohapatra complex, Jd-21, Jagda, Koel Nagar, Rourkela, Odisha 769042",
   location: "Rourkela",
-  email: "contact@herculesfitness.com"
+  email: "contact@ironbarfitness.com"
 };
 
 export const SERVICES: Service[] = [
@@ -77,7 +77,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: '1',
     name: 'Rahul Sharma',
     role: 'Member since 2022',
-    content: 'Hercules Fitness Gym changed my life. The trainers are knowledgeable and the atmosphere is incredibly motivating.',
+    content: 'Iron Bar Fitness Gym changed my life. The trainers are knowledgeable and the atmosphere is incredibly motivating.',
     image: 'https://picsum.photos/100/100?random=1'
   },
   {
