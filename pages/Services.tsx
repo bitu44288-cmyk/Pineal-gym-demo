@@ -23,7 +23,7 @@ const Services: React.FC = () => {
                   <p className="text-gray-500 group-hover:text-gray-300 transition-colors">{service.description}</p>
                 </div>
                 <div className="md:w-1/6 flex justify-end mt-6 md:mt-0">
-                   <Link to="/contact" className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center group-hover:bg-pineal group-hover:border-pineal group-hover:text-black transition-all">
+                   <Link to="/contact" className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center group-hover:bg-pineal group-hover:border-pineal group-hover:text-black transition-all hover:-translate-y-1 duration-300">
                      <i className="fas fa-arrow-right -rotate-45"></i>
                    </Link>
                 </div>

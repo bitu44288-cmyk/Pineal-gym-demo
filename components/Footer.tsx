@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex gap-4">
               <input type="email" placeholder="ENTER EMAIL" className="bg-dark-800 border-none px-4 py-3 text-sm w-full focus:ring-1 focus:ring-pineal outline-none text-white" />
-              <button className="bg-pineal text-black px-6 py-3 font-bold uppercase text-xs tracking-widest hover:bg-white transition-colors">Subscribe</button>
+              <button className="bg-pineal text-black px-6 py-3 font-bold uppercase text-xs tracking-widest hover:bg-white transition-all hover:-translate-y-1 duration-300">Subscribe</button>
             </div>
           </div>
           
@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
             href="https://maps.app.goo.gl/i9ob6UR16kHEPZGZ6" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="absolute bottom-4 right-4 bg-pineal text-black px-6 py-3 font-bold uppercase text-xs tracking-widest hover:bg-white transition-colors shadow-lg z-10 flex items-center gap-2"
+            className="absolute bottom-4 right-4 bg-pineal text-black px-6 py-3 font-bold uppercase text-xs tracking-widest hover:bg-white transition-all hover:-translate-y-1 duration-300 shadow-lg z-10 flex items-center gap-2"
           >
             <i className="fas fa-map-marker-alt"></i>
             View on Maps
