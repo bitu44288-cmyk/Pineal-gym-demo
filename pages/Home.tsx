@@ -31,7 +31,7 @@ const Home: React.FC = () => {
                </span>
              </h1>
              <p className="text-gray-300 max-w-md mb-10 text-base md:text-lg leading-relaxed border-l-2 border-pineal pl-6 backdrop-blur-sm">
-               Mahaveer Royal Fitness Gym isn't just a gym. It's a sanctuary for the driven. 
+               Elite Fitness Gym isn't just a gym. It's a sanctuary for the driven. 
                Elite equipment, raw atmosphere, and science-backed training.
              </p>
              <div className="flex items-center gap-6">
@@ -55,7 +55,7 @@ const Home: React.FC = () => {
         <div className="whitespace-nowrap animate-marquee flex items-center gap-16">
           {[...Array(6)].map((_, i) => (
             <span key={i} className="text-4xl md:text-6xl font-display font-black text-transparent stroke-text uppercase opacity-30">
-              Strength • Discipline • Power • Mahaveer Royal •
+              Strength • Discipline • Power • Elite Fitness •
             </span>
           ))}
         </div>
@@ -156,7 +156,7 @@ const Home: React.FC = () => {
              Ready to <br/> <span className="text-stroke text-transparent">Dominate?</span>
            </h2>
            <p className="text-gray-400 mb-10 max-w-lg mx-auto">
-             Your potential is waiting. The iron doesn't lie. Join Mahaveer Royal Fitness Gym today and start your legacy.
+             Your potential is waiting. The iron doesn't lie. Join Elite Fitness Gym today and start your legacy.
            </p>
            <Link to="/contact" className="inline-block bg-pineal text-black font-display font-bold text-xl px-12 py-5 uppercase hover:bg-white transition-colors">
              Start Membership

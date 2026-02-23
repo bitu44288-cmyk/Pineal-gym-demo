@@ -1,12 +1,12 @@
 import { GymDetails, Service, PricingTier, Testimonial, BlogPost } from './types';
 
 export const GYM_DETAILS: GymDetails = {
-  name: "Mahaveer Royal Fitness Gym",
-  phone: "+919778616162",
-  whatsapp: "919778616162",
-  address: "3rd Floor, MAHAVEER ROYAL GYM, D/12, Shakti Nagar - Koel Nagar Rd, D Block, Koel Nagar, Rourkela, Odisha 769014",
+  name: "Elite Fitness Gym",
+  phone: "+919438555333",
+  whatsapp: "919438555333",
+  address: "C-21, Main Rd, Koelnagar C Block, Koel Nagar, Rourkela, Odisha 769014",
   location: "Rourkela",
-  email: "contact@mahaveerroyalgym.com"
+  email: "contact@elitefitnessgym.com"
 };
 
 export const SERVICES: Service[] = [
@@ -77,7 +77,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: '1',
     name: 'Rahul Sharma',
     role: 'Member since 2022',
-    content: 'Mahaveer Royal Fitness Gym changed my life. The trainers are knowledgeable and the atmosphere is incredibly motivating.',
+    content: 'Elite Fitness Gym changed my life. The trainers are knowledgeable and the atmosphere is incredibly motivating.',
     image: 'https://picsum.photos/100/100?random=1'
   },
   {

@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
               <div>
                 <span className="text-gray-500 text-xs uppercase tracking-widest block mb-2">Visit</span>
                 <p className="text-2xl text-white font-light max-w-xs hover:text-pineal transition-colors">
-                  <a href="https://www.google.com/maps/search/?api=1&query=Mahaveer+Royal+Fitness+Gym+Rourkela" target="_blank" rel="noopener noreferrer">
+                  <a href="https://maps.app.goo.gl/i9ob6UR16kHEPZGZ6" target="_blank" rel="noopener noreferrer">
                     {GYM_DETAILS.address}
                   </a>
                 </p>
