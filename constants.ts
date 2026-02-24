@@ -6,6 +6,7 @@ export const TRAINERS: Trainer[] = [
     name: 'Vikram Singh',
     role: 'Head Coach',
     specialty: 'Strength & Conditioning',
+    // TODO: Replace with trainer1 image from: https://drive.google.com/drive/folders/1JaSLjbvQA2EsazRyf7MB9BYnVj8kHkie
     image: 'https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=1974&auto=format&fit=crop',
     socials: {
       instagram: '#',
@@ -17,6 +18,7 @@ export const TRAINERS: Trainer[] = [
     name: 'Sarah Jenkins',
     role: 'Senior Trainer',
     specialty: 'HIIT & Functional Training',
+    // TODO: Replace with trainer2 image from: https://drive.google.com/drive/folders/1JaSLjbvQA2EsazRyf7MB9BYnVj8kHkie
     image: 'https://images.unsplash.com/photo-1611672585731-fa10603fb9e0?q=80&w=1974&auto=format&fit=crop',
     socials: {
       instagram: '#',
@@ -28,6 +30,7 @@ export const TRAINERS: Trainer[] = [
     name: 'Marcus Ray',
     role: 'Performance Coach',
     specialty: 'Powerlifting',
+    // TODO: Replace with trainer3 image from: https://drive.google.com/drive/folders/1JaSLjbvQA2EsazRyf7MB9BYnVj8kHkie
     image: 'https://images.unsplash.com/photo-1597347343908-2937e7dcc560?q=80&w=1974&auto=format&fit=crop',
     socials: {
       instagram: '#',
