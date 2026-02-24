@@ -1,4 +1,5 @@
 import React from 'react';
+import Trainers from '../components/Trainers';
 
 const About: React.FC = () => {
   return (
@@ -61,6 +62,9 @@ const About: React.FC = () => {
           </div>
         </div>
       </div>
+      
+      {/* Trainers Section */}
+      <Trainers />
     </div>
   );
 };

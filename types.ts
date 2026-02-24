@@ -30,6 +30,19 @@ export interface BlogPost {
   image: string;
 }
 
+export interface Trainer {
+  id: string;
+  name: string;
+  role: string;
+  specialty: string;
+  image: string;
+  socials: {
+    instagram?: string;
+    twitter?: string;
+    linkedin?: string;
+  };
+}
+
 export interface GymDetails {
   name: string;
   phone: string;

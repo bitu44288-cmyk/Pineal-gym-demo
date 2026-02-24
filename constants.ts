@@ -1,4 +1,40 @@
-import { GymDetails, Service, PricingTier, Testimonial, BlogPost } from './types';
+import { GymDetails, Service, PricingTier, Testimonial, BlogPost, Trainer } from './types';
+
+export const TRAINERS: Trainer[] = [
+  {
+    id: '1',
+    name: 'Vikram Singh',
+    role: 'Head Coach',
+    specialty: 'Strength & Conditioning',
+    image: 'https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=1974&auto=format&fit=crop',
+    socials: {
+      instagram: '#',
+      twitter: '#'
+    }
+  },
+  {
+    id: '2',
+    name: 'Sarah Jenkins',
+    role: 'Senior Trainer',
+    specialty: 'HIIT & Functional Training',
+    image: 'https://images.unsplash.com/photo-1611672585731-fa10603fb9e0?q=80&w=1974&auto=format&fit=crop',
+    socials: {
+      instagram: '#',
+      linkedin: '#'
+    }
+  },
+  {
+    id: '3',
+    name: 'Marcus Ray',
+    role: 'Performance Coach',
+    specialty: 'Powerlifting',
+    image: 'https://images.unsplash.com/photo-1597347343908-2937e7dcc560?q=80&w=1974&auto=format&fit=crop',
+    socials: {
+      instagram: '#',
+      twitter: '#'
+    }
+  }
+];
 
 export const GYM_DETAILS: GymDetails = {
   name: "Elite Fitness Gym",
