@@ -6,8 +6,8 @@ export const TRAINERS: Trainer[] = [
     name: 'Vikram Singh',
     role: 'Head Coach',
     specialty: 'Strength & Conditioning',
-    // TODO: Replace with trainer1 image from: https://drive.google.com/drive/folders/1JaSLjbvQA2EsazRyf7MB9BYnVj8kHkie
-    image: 'https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=1974&auto=format&fit=crop',
+    image: 'https://drive.google.com/thumbnail?id=1yYBETSK-9crLizN2h_e7zum31Kn-Pxl3&sz=w1000',
+    about: 'Vikram brings over 10 years of experience in elite strength training. Former national powerlifter dedicated to forging resilient athletes.',
     socials: {
       instagram: '#',
       twitter: '#'
@@ -18,8 +18,8 @@ export const TRAINERS: Trainer[] = [
     name: 'Sarah Jenkins',
     role: 'Senior Trainer',
     specialty: 'HIIT & Functional Training',
-    // TODO: Replace with trainer2 image from: https://drive.google.com/drive/folders/1JaSLjbvQA2EsazRyf7MB9BYnVj8kHkie
-    image: 'https://images.unsplash.com/photo-1611672585731-fa10603fb9e0?q=80&w=1974&auto=format&fit=crop',
+    image: 'https://drive.google.com/thumbnail?id=1S4hX5bLwY8_pULBIHXFVJ3awuE-nY77Z&sz=w1000',
+    about: 'Sarah specializes in high-intensity functional movement. Her philosophy centers on agility, endurance, and real-world strength application.',
     socials: {
       instagram: '#',
       linkedin: '#'
@@ -30,8 +30,8 @@ export const TRAINERS: Trainer[] = [
     name: 'Marcus Ray',
     role: 'Performance Coach',
     specialty: 'Powerlifting',
-    // TODO: Replace with trainer3 image from: https://drive.google.com/drive/folders/1JaSLjbvQA2EsazRyf7MB9BYnVj8kHkie
-    image: 'https://images.unsplash.com/photo-1597347343908-2937e7dcc560?q=80&w=1974&auto=format&fit=crop',
+    image: 'https://drive.google.com/thumbnail?id=1AFGdV6Ai0YhPcUuNqO74tJ2_VsHXH53z&sz=w1000',
+    about: 'Marcus focuses on biomechanics and precision lifting. He helps athletes break plateaus through technical mastery and programmed progression.',
     socials: {
       instagram: '#',
       twitter: '#'

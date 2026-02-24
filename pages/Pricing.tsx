@@ -46,7 +46,7 @@ const Pricing: React.FC = () => {
 
               <Link 
                 to="/contact" 
-                className={`w-full py-4 text-center font-bold uppercase tracking-wider text-sm border transition-all hover:-translate-y-1 duration-300 ${
+                className={`btn-premium w-full py-4 text-center font-bold uppercase tracking-wider text-sm border ${
                   tier.recommended
                     ? 'bg-pineal text-black border-pineal hover:bg-white'
                     : 'bg-transparent text-white border-white/20 hover:border-white hover:text-pineal'

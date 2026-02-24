@@ -36,11 +36,11 @@ const Home: React.FC = () => {
                Elite equipment, raw atmosphere, and science-backed training.
              </p>
              <div className="flex items-center gap-6">
-                <Link to="/contact" className="group relative px-8 py-4 bg-white text-black font-bold uppercase tracking-wider text-sm overflow-hidden hover:scale-105 hover:-translate-y-1 transition-all duration-300">
+                <Link to="/contact" className="btn-premium group relative px-8 py-4 bg-white text-black font-bold uppercase tracking-wider text-sm overflow-hidden">
                   <span className="relative z-10 group-hover:text-white transition-colors duration-300">Join The Cult</span>
                   <div className="absolute inset-0 bg-pineal transform scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-300 ease-out"></div>
                 </Link>
-                <Link to="/gallery" className="text-sm font-bold uppercase tracking-wider text-white hover:text-pineal transition-all hover:-translate-y-1 duration-300 flex items-center gap-3 group">
+                <Link to="/gallery" className="btn-premium text-sm font-bold uppercase tracking-wider text-white hover:text-pineal flex items-center gap-3 group">
                   <span className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center group-hover:border-pineal group-hover:text-pineal transition-all">
                     <i className="fas fa-play text-xs"></i>
                   </span>
@@ -110,7 +110,7 @@ const Home: React.FC = () => {
         <div className="max-w-[1400px] mx-auto">
           <div className="flex justify-between items-end mb-20 border-b border-white/10 pb-6">
             <h2 className="font-display text-4xl font-bold uppercase">Training <span className="text-pineal">Modules</span></h2>
-            <Link to="/services" className="hidden md:block text-xs font-bold uppercase tracking-widest hover:text-pineal transition-all hover:-translate-y-1 duration-300">
+            <Link to="/services" className="btn-premium hidden md:block text-xs font-bold uppercase tracking-widest hover:text-pineal">
               View All Programs <i className="fas fa-arrow-right ml-2"></i>
             </Link>
           </div>
@@ -162,7 +162,7 @@ const Home: React.FC = () => {
            <p className="text-gray-400 mb-10 max-w-lg mx-auto">
              Your potential is waiting. The iron doesn't lie. Join Elite Fitness Gym today and start your legacy.
            </p>
-           <Link to="/contact" className="inline-block bg-pineal text-black font-display font-bold text-xl px-12 py-5 uppercase hover:bg-white transition-all hover:-translate-y-1 duration-300">
+           <Link to="/contact" className="btn-premium inline-block bg-pineal text-black font-display font-bold text-xl px-12 py-5 uppercase hover:bg-white">
              Start Membership
            </Link>
         </div>

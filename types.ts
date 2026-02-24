@@ -36,6 +36,7 @@ export interface Trainer {
   role: string;
   specialty: string;
   image: string;
+  about: string;
   socials: {
     instagram?: string;
     twitter?: string;

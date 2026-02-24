@@ -62,7 +62,7 @@ const Header: React.FC = () => {
           <div className="flex items-center gap-6">
             <a 
               href={`tel:${GYM_DETAILS.phone}`} 
-              className="hidden md:flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-white hover:text-pineal transition-all hover:-translate-y-1 duration-300"
+              className="btn-premium hidden md:flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-white hover:text-pineal"
             >
               <span>Join Now</span>
               <i className="fas fa-arrow-right -rotate-45 text-pineal"></i>
@@ -93,7 +93,7 @@ const Header: React.FC = () => {
           ))}
           <a 
             href={`tel:${GYM_DETAILS.phone}`} 
-            className="mt-8 px-8 py-3 bg-pineal text-black font-bold uppercase tracking-wider rounded-none hover:bg-white transition-all hover:-translate-y-1 duration-300"
+            className="btn-premium mt-8 px-8 py-3 bg-pineal text-black font-bold uppercase tracking-wider rounded-none hover:bg-white"
           >
             Start Membership
           </a>

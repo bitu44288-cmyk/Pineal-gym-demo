@@ -33,7 +33,7 @@ const Blog: React.FC = () => {
                 <p className="text-gray-400 mb-6 leading-relaxed max-w-xl">
                   {post.excerpt}
                 </p>
-                <Link to="#" className="inline-block text-white border-b border-pineal pb-1 hover:text-pineal transition-all hover:-translate-y-1 duration-300 uppercase text-sm font-bold tracking-wider">
+                <Link to="#" className="btn-premium inline-block text-white border-b border-pineal pb-1 hover:text-pineal uppercase text-sm font-bold tracking-wider">
                   Read Full Story
                 </Link>
               </div>

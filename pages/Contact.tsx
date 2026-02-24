@@ -43,9 +43,9 @@ const Contact: React.FC = () => {
               <div>
                 <span className="text-gray-500 text-xs uppercase tracking-widest block mb-2">Connect</span>
                 <div className="flex gap-4">
-                  <a href="#" className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center hover:bg-pineal hover:border-pineal hover:text-black transition-all hover:-translate-y-1 duration-300"><i className="fab fa-instagram"></i></a>
-                  <a href="#" className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center hover:bg-pineal hover:border-pineal hover:text-black transition-all hover:-translate-y-1 duration-300"><i className="fab fa-twitter"></i></a>
-                  <a href="#" className="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center hover:bg-pineal hover:border-pineal hover:text-black transition-all hover:-translate-y-1 duration-300"><i className="fab fa-youtube"></i></a>
+                  <a href="#" className="btn-premium w-10 h-10 border border-white/20 rounded-full flex items-center justify-center hover:bg-pineal hover:border-pineal hover:text-black"><i className="fab fa-instagram"></i></a>
+                  <a href="#" className="btn-premium w-10 h-10 border border-white/20 rounded-full flex items-center justify-center hover:bg-pineal hover:border-pineal hover:text-black"><i className="fab fa-twitter"></i></a>
+                  <a href="#" className="btn-premium w-10 h-10 border border-white/20 rounded-full flex items-center justify-center hover:bg-pineal hover:border-pineal hover:text-black"><i className="fab fa-youtube"></i></a>
                 </div>
               </div>
            </div>
@@ -57,7 +57,7 @@ const Contact: React.FC = () => {
               <i className="fas fa-check text-5xl text-pineal mb-6"></i>
               <h3 className="text-3xl font-display uppercase font-bold text-white">Received</h3>
               <p className="text-gray-400 mt-4">We will contact you shortly.</p>
-              <button onClick={() => setSubmitted(false)} className="mt-8 text-pineal underline inline-block hover:-translate-y-1 transition-transform duration-300">Reset</button>
+              <button onClick={() => setSubmitted(false)} className="btn-premium mt-8 text-pineal underline inline-block">Reset</button>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-8">
@@ -107,7 +107,7 @@ const Contact: React.FC = () => {
                </div>
                <button 
                  type="submit" 
-                 className="w-full py-5 bg-white text-black font-bold uppercase tracking-widest hover:bg-pineal transition-all hover:-translate-y-1 duration-300 mt-8"
+                 className="btn-premium w-full py-5 bg-white text-black font-bold uppercase tracking-widest hover:bg-pineal mt-8"
                >
                  Send Inquiry
                </button>
