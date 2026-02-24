@@ -48,11 +48,14 @@ const Header: React.FC = () => {
               <Link 
                 key={link.path} 
                 to={link.path}
-                className={`text-xs font-bold uppercase tracking-widest hover:text-pineal transition-colors duration-300 relative group ${
+                className={`text-xs font-bold uppercase tracking-widest relative group ${
                   location.pathname === link.path ? 'text-pineal' : 'text-gray-400'
                 }`}
               >
-                {link.label}
+                <div className="relative overflow-hidden">
+                  <span className="block transition-transform duration-300 group-hover:-translate-y-full">{link.label}</span>
+                  <span className="absolute top-0 left-0 block transition-transform duration-300 translate-y-full group-hover:translate-y-0 text-pineal">{link.label}</span>
+                </div>
                 <span className={`absolute -bottom-2 left-0 w-0 h-[2px] bg-pineal transition-all duration-300 group-hover:w-full ${location.pathname === link.path ? 'w-full' : ''}`}></span>
               </Link>
             ))}
@@ -81,12 +84,15 @@ const Header: React.FC = () => {
       {/* Mobile Menu Overlay */}
       <div className={`fixed inset-0 z-40 bg-dark-900 transition-transform duration-500 ease-in-out ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden flex flex-col justify-center items-center`}>
         <div className="flex flex-col gap-8 text-center">
-          {navLinks.map((link) => (
+          {navLinks.map((link, index) => (
             <Link 
               key={link.path} 
               to={link.path}
               onClick={() => setIsMenuOpen(false)}
-              className="font-display text-4xl font-bold text-white hover:text-pineal hover:scale-105 transition-all"
+              style={{ transitionDelay: `${100 + index * 100}ms` }}
+              className={`font-display text-4xl font-bold text-white hover:text-pineal hover:scale-105 transition-all duration-500 transform ${
+                isMenuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+              }`}
             >
               {link.label}
             </Link>
